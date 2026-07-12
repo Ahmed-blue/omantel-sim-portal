@@ -1,0 +1,8 @@
+{
+  "name": "omantel-sim-portal",
+  "version": "2.0.0",
+  "description": "Omantel SIM Activation Portal - capstone build with metrics",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "prom-client": "^15.1.3" }
+}
