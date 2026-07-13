@@ -4,7 +4,7 @@ function validatePhoneNumber(phone) {
     if (!phone.startsWith("+971")) { // BUG: changed from +968 to +971
         return false;
     }
-    
+    //fork test Ahmed
     // Rule 2: Must be exactly 12 characters (+968 + 8 digits)
     if (phone.length !== 12) { 
         return false;
